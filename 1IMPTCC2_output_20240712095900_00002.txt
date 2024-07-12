@@ -1,0 +1,19 @@
++ Job started at '0712 09:59:02:279' orderno - '3405b' runno - '00002' Number of transfers - 1
++ Host1 '10.85.140.5' [MVS-FTP] username 'USRFTPCA' - Host2 '10.85.220.33' [Unix-SFTP] username 'useraft'
+Local host is hipnoslx03p
++********** Starting transfer #1 out of 1**********
+Connection to FTP server on host 10.85.140.5 was established
+Connection to SFTP server on host 10.85.220.33 was established
+
+Transfer type: ASCII
+In Ascii transfer Source and Destination file sizes can be different
+Open data connection to retrieve file SNV1.IM.NA.BA.DIS.BACK2.S
+Source host '10.85.140.5' ftp reply ---> 550 Data set SNV1.IM.NA.BA.DIS.BACK2.S not found
+
+File 'SNV1.IM.NA.BA.DIS.BACK2.S' not found on host '10.85.140.5',no such file or directory
+Transfer of file 'SNV1.IM.NA.BA.DIS.BACK2.S' completed with errors. Failed to get input stream from source file 'SNV1.IM.NA.BA.DIS.\
+BACK2.S' on host 10.85.140.5
+Failed in job 1IMPTCC2 in file transfer #1
+
+Job ended at '0712 09:59:02:851'
+Elapsed time [0 sec]
